@@ -1,0 +1,6 @@
+---
+
+# Components install on Windows Jumpbox
+- hosts: jumpboxes_windows
+  roles:
+    - { role: jumpbox-install }  
